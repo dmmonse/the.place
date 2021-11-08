@@ -17,22 +17,29 @@
 
 a{
   text-decoration: none;
+  color:white;
+
+}
+header{
+  background-color: $darker-background;
+  list-style: none;
 }
   .tp{
     text-decoration: none;
     font-family: $title;
     list-style: none;
+    background-color: $darker-background;
    
 
   }
   .right{
     font-family: $primary-font;
     list-style: none;
+    background-color: $darker-background;
   }
 .story h2 {
     @include heading;
     font-size: 50px;
-    padding-left: 30 px;
 }
 .story{
   display: inline-block;
@@ -43,6 +50,9 @@ a{
 }
 .story p{
   font-family:$primary-font;
+}
+.copy a{
+  color:$primary-font-color;
 }
 .copy{
   font-family:$primary-font;

@@ -346,17 +346,25 @@ template {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: #150300;
+  list-style: none;
 }
 
 .tp {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   list-style: none;
+  background-color: #150300;
 }
 
 .right {
   font-family: "Dosis", sans-serif;
   list-style: none;
+  background-color: #150300;
 }
 
 .story h2 {
@@ -365,7 +373,6 @@ a {
   font-size: "Marck Script", cursive;
   color: #DB8D33;
   font-size: 50px;
-  padding-left: 30 px;
 }
 
 .story {
@@ -378,6 +385,10 @@ a {
 
 .story p {
   font-family: "Dosis", sans-serif;
+}
+
+.copy a {
+  color: #575757;
 }
 
 .copy {
