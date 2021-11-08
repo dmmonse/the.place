@@ -1,0 +1,50 @@
+
+@import './vendors/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+
+
+// Medium screens and up
+@media (min-width: 768px) {
+   
+  }
+  // Big screens
+  @media (min-width: 1024px) {
+   
+  }
+
+a{
+  text-decoration: none;
+}
+  .tp{
+    text-decoration: none;
+    font-family: $title;
+    list-style: none;
+   
+
+  }
+  .right{
+    font-family: $primary-font;
+    list-style: none;
+  }
+.story h2 {
+    @include heading;
+    font-size: 50px;
+    padding-left: 30 px;
+}
+.story{
+  display: inline-block;
+}
+
+.article1 {
+  display: inline-block;
+}
+.story p{
+  font-family:$primary-font;
+}
+.copy{
+  font-family:$primary-font;
+  color:$primary-font-color;
+}
